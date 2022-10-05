@@ -1,5 +1,6 @@
 import hu.petrik.sokszogoop.Haromszog;
 import hu.petrik.sokszogoop.Paralelogramma;
+import hu.petrik.sokszogoop.Pentagon;
 import hu.petrik.sokszogoop.Teglalap;
 
 public class Main {
@@ -16,5 +17,8 @@ public class Main {
 
         Paralelogramma p = new Paralelogramma();
         System.out.println(p);
+
+        Pentagon p2 = new Pentagon();
+        System.out.println(p2);
     }
 }
